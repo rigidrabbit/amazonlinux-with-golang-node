@@ -41,6 +41,3 @@ ENV GOLANG_VERSION=1.8.3 \
     GOROOT=/usr/local/go \
     GOPATH=/go \
     PATH=/go/bin:/usr/local/go/bin:$PATH
-
-CMD ["/bin/bash"]
-
