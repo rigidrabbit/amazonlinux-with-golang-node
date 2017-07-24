@@ -12,7 +12,7 @@ and you would not want to use them.
 
 ## Supported tags and respective Dockerfile links
 
-* latest [Dockerfile](https://github.com/rigidrabbit/amazonlinux-with-golang-node/Dockerfile)
+* latest [Dockerfile](https://github.com/rigidrabbit/amazonlinux-with-golang-node/blob/master/Dockerfile)
 
 ## How to Use
 
