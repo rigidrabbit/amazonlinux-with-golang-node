@@ -13,8 +13,8 @@ RUN \set -eux; \
         wget; \
 	\
 	( \
-	    SHA256='1862f4c3d3907e59b04a757cfda0ea7aa9ef39274af99a784f5be843c80c6772'; \
-	    URL='https://golang.org/dl/go1.8.3.linux-amd64.tar.gz'; \
+	    SHA256='aea86e3c73495f205929cfebba0d63f1382c8ac59be081b6351681415f4063cf'; \
+	    URL='https://dl.google.com/go/go1.12.5.linux-amd64.tar.gz'; \
 	    \cd /tmp && \
 	    \wget -O go.tgz "$URL" && \
 	    \echo "$SHA256 *go.tgz" | \sha256sum -c - && \
@@ -25,8 +25,8 @@ RUN \set -eux; \
 	); \
 	\
 	( \
-	    SHA256='e68cc956f0ca5c54e7f3016d639baf987f6f9de688bb7b31339ab7561af88f41'; \
-	    URL='https://nodejs.org/dist/v6.11.1/node-v6.11.1-linux-x64.tar.xz'; \
+	    SHA256='5643b54c583eebaa40c1623b16cba4e3955ff5dfdd44036f6bafd761160c993d'; \
+	    URL='https://nodejs.org/dist/v8.15.1/node-v8.15.1-linux-x64.tar.xz'; \
 	    \cd /tmp && \
 	    \wget -O node.tar.xz "$URL" && \
 	    \echo "$SHA256 *node.tar.xz" | \sha256sum -c - && \
@@ -37,7 +37,7 @@ RUN \set -eux; \
 	    \node --version \
 	);
 
-ENV GOLANG_VERSION=1.8.3 \
+ENV GOLANG_VERSION=1.12.5 \
     GOROOT=/usr/local/go \
     GOPATH=/go \
     PATH=/go/bin:/usr/local/go/bin:$PATH
