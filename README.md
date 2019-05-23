@@ -1,6 +1,6 @@
 # amazonlinux-with-golang-node
 
-In a container of [this image](https://hub.docker.com/r/rigidrabbit/amazonlinux-with-golang-node/) you will have golang 1.8 and node 6.11 installed and ready to use.
+In a container of [this image](https://hub.docker.com/r/rigidrabbit/amazonlinux-with-golang-node/) you will have golang 1.12.5 and node 8.15.1 installed and ready to use.
 
 This image is based on [the official Amazon Linux docker image](https://hub.docker.com/r/library/amazonlinux/) and is
 supposed to be used for building applications which will be deployed on Amazon Linux EC2 instance.
