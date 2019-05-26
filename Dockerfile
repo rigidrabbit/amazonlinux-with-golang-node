@@ -1,4 +1,4 @@
-FROM library/amazonlinux
+FROM amazonlinux:1
 
 RUN \set -eux; \
 	\
