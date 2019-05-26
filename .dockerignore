@@ -4,3 +4,6 @@
 .vscode
 LICENSE
 README.md
+.DS_Store
+*.log
+*~
